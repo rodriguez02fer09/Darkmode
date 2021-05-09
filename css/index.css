@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: "Josefin Sans", sans-serif;
+  transition: all 0.4s;
 }
 header {
   display: flex;
@@ -10,11 +11,16 @@ header {
 }
 .title-header {
   font-size: 20px;
+  color: black;
 }
 
 button {
   margin: 10px;
   font-family: "Josefin Sans", sans-serif;
+}
+button:hover {
+  background-color: rgb(32, 32, 44);
+  color: yellowgreen;
 }
 
 main {
@@ -34,4 +40,9 @@ p.main-section-js {
   justify-content: center;
 
   margin-left: 150px;
+}
+
+body.darkmode {
+  background-color: rgb(32, 32, 44);
+  color: beige;
 }
